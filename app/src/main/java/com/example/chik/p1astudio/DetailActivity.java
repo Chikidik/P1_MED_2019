@@ -33,6 +33,7 @@ public class DetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(DetailActivity.this, PopVideo.class));
+
             }
         });
 

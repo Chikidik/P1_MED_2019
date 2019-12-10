@@ -32,6 +32,8 @@ public class PopVideo extends Activity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
+        videoView.start();
+
         getWindow().setLayout((int)(width*0.8),(int)(height*.6));
 
     }
