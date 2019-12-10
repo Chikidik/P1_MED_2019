@@ -56,6 +56,17 @@
 
                 />
 
+            <ImageButton
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video_view"
+                android:layout_gravity="center"
+                android:text="Klik her for mere :)"
+                android:textSize="30dp"
+                />
+
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -67,15 +78,6 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
 
                 ></TextView>
 
-            <ImageButton
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/video_view"
-                android:layout_gravity="center"
-                android:text="Klik her for mere :)"
-                android:textSize="30dp"
-                />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -101,7 +103,7 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
             <TextView
                 android:layout_width="211dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="400dp"
+                android:layout_marginLeft="350dp"
                 android:layout_marginTop="-199dp"
                 android:text="Cons: \n
                 \n‣ Droner er dyrer at producere \n
