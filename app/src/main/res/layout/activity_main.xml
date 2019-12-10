@@ -164,7 +164,7 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 android:layout_height="wrap_content"
                 android:text="Droner er eldrevne, hvilket gør dem til en af de flere grønne alternativer til normale diesel- eller benzin-drevne varebiler, som på nuværende tidspunkt er på markedet. Især i et land som Danmark, der i høj grad producerer grøn energi, vil det være optimalt at skifte til en eldreven teknologi, som udover at være klimavenlig heller ikke skaber mere trafik.
 \n
-\nMen hvor meget mere energi bruger en varebil egentlig? tryk på nedenstående billede for at finde ud af det.
+\nMen hvor meget mere energi bruger en varebil egentlig? Tryk på nedenstående billede for at finde ud af det.
 "
                 android:layout_marginTop="10dp"
                 android:textColor="#000"

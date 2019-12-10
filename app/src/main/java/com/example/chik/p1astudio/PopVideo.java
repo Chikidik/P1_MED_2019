@@ -1,6 +1,8 @@
 package com.example.chik.p1astudio;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
@@ -38,4 +40,10 @@ public class PopVideo extends Activity {
 
     }
 
-}
+
+
+
+        }
+
+
+
