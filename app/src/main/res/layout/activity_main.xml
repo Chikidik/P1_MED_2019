@@ -187,7 +187,13 @@ Men hvor meget mere energi bruger en varebil egentlig? tryk på nedenstående bi
                 android:src="@drawable/diagram"
                 />
 
-
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tryk på diagrammet ovenfor for at se yderligere info."
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="#000"></TextView>
 
 
             <TextView
@@ -199,7 +205,12 @@ Men hvor meget mere energi bruger en varebil egentlig? tryk på nedenstående bi
 Mange mennesker har svært ved at stole på autonome droner til at levere deres dyre og skrøbelige pakker, og der opstår mange problemer med dansk lovgivning der ikke tillader droner til at flyve frit og er meget begrænset især inden for byområder. Dette er nogle af grundene til at droner ikke bliver brugt i post branchen i dag.
 \n
 \n
-Men forvent at denne droneteknologi kan være en realitet, og den er nok tættere på end du tror!"
+Men forvent at denne droneteknologi kan være en realitet, og den er nok tættere på end du tror!
+\n
+\n
+\n
+\n
+"
                 android:layout_marginTop="10dp"
                 android:textColor="#000"></TextView>
 
