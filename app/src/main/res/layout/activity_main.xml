@@ -15,9 +15,21 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        />
 
 
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="serif"
+        android:text="Nyhederne"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
 
     <ScrollView
         android:layout_below="@+id/toolbar"
@@ -35,49 +47,51 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/test"
-                android:layout_width="wrap_content"
+
+                android:layout_width="367dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
+                android:fontFamily="serif"
                 android:text="Hvad er dronelevering?"
                 android:textColor="#000"
-                android:textSize="50dp"
+                android:textSize="30dp"
 
                 />
 
             <TextView
-                android:id="@+id/test"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:text="Forestil dig at du står en situation, hvor du har glemt at købe en gave, og du får gæster på besøg lige om lidt. Men du går ikke panik, for du ved, at du kan købe gaven online, og få den leveret til afhentning indenfor 30 minutter, helt uden at nogen opdager noget. Denne mulighed lyder nærmest uvirkelig, men kan rent faktisk være en realitet i den nærmeste fremtid."
                 android:textColor="#000"
-
+                android:textSize="15dp"
+                android:fontFamily="serif"
                 />
 
+
             <ImageButton
-                android:layout_marginTop="10dp"
                 android:id="@+id/button"
-                android:layout_width="647dp"
-                android:layout_height="84dp"
+                android:layout_width="628dp"
+                android:layout_height="115dp"
                 android:layout_gravity="center"
+                android:layout_marginTop="10dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/drone"
 
                 />
 
-
-
-
             <TextView
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Droner er en hurtigt voksende teknologi nu om dage, og dette er af mange grunde. Droner har sådan et bredt spektrum af anvendelser, der rækker helt fra militær til privat brug, og den mængde af forskellige værktøjer droner kan tilbyde og bruges som er nærmest uovertruffen. Om det er et Infrarødt kamera monteret på dronen eller en gps til at spore eller måle, åbner drone teknologien op for helt nye tilgangsmåder og muligheder indenfor mange områder.
+                android:text="Droner er en hurtigt voksende teknologi nu om dage, og dette er af mange grunde. Droner har sådan et bredt spektrum af anvendelser, der rækker helt fra militær til privat brug, og den mængde af forskellige værktøjer droner kan tilbyde og bruges som er nærmest uovertruffen. \n \nOm det er et Infrarødt kamera monteret på dronen eller en gps til at spore eller måle, åbner drone teknologien op for helt nye tilgangsmåder og muligheder indenfor mange områder.
 Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der også har et stort potentiale for fremtiden; Pakkelevering med droner.
 "
                 android:textColor="#000"
+                android:textSize="15dp"
+                android:fontFamily="serif"
 
                 ></TextView>
 
@@ -87,7 +101,10 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 android:layout_height="wrap_content"
                 android:text="Pakkelevering med droner tilbyder mange nye muligheder inden for pakkelevering, der ikke har været mulige før. Droner tilbyder overraskende hurtig levering af individuelle pakker, og har mulighed for at kunne aflaste pakker på designeret pladser for at gøre det nemmere for modtageren. Dronerne flyver automatisk med minimal menneskelig integration, hvilket gør det billigere på længere sigt, og droner kan derudover også være et godt alternativ til traditionel levering med hensyn til miljøet."
                 android:layout_marginTop="10dp"
-                android:textColor="#000"></TextView>
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:fontFamily="serif"
+                ></TextView>
 
 
             <TextView
@@ -95,19 +112,22 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 android:layout_height="wrap_content"
 
                 android:layout_marginLeft="50dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:text="Pros:\n
                 \n‣ Droner kan aflevere pakker meget hurtigt \n
                 \n‣ Droner kan aflevere pakker til næsten hvilken som helst lokation \n
                 \n‣ Droner er miljøvenlige \n
                 \n‣ Dronelevering tilbyder et mere sikkert system"
-                android:textColor="#000"></TextView>
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:fontFamily="serif"
+                ></TextView>
 
             <TextView
                 android:layout_width="211dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="350dp"
-                android:layout_marginTop="-199dp"
+                android:layout_marginTop="-265dp"
                 android:text="Cons: \n
                 \n‣ Droner er dyrer at producere \n
                 \n‣ Yderligere udvikling på teknologien kan være nødvendig før det opnår det optimale potentiale \n
@@ -116,27 +136,26 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 \n‣ Kan overtræde dit privatliv"
 
 
-                android:textColor="#000"></TextView>
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:fontFamily="serif"></TextView>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="
                 \n
+                \nHvorfor skulle man bruge droner som et alternativ til pakkelevering, og vil pakkelevering i fremtiden være udelukkende droner?
                 \n
-Hvorfor skulle man bruge droner som et alternativ til pakkelevering, og vil pakkelevering i fremtiden være udelukkende droner?
-                \n
-                \n
-Det kan stadig være nødvendigt at udnytte lastbiler og skibe over lange afstande men fordelen med droner ligger i de korte ture fra varehuset til din hoveddør. Den kæmpe forskel i hastighed sikre sig, at du kan få din pakke leveret inden for en time hvilket er næsten usandsynligt med andre alternativer, især traditionel varelevering som det er nu.
-\n \n
-Droner bliver ikke påvirket af trafik og har derfor en lavere fejlrate med hensyn til at blive forsinket eller komme ud for et uheld, og de har derudover også indbygget GPS teknologi som ikke kun optimere og forbedre flyveruten, men også tillade at følge pakken direkte i realtid.
-\n \n
-Droner tilbyder dog også et mere miljøvenligt alternativ når du bestiller din pakke. På korte individuelle pakke leverancer er droner ikke kun hurtigere men også det miljøansvarlige valg, især ved brug af grøn energi."
+                \nDet kan stadig være nødvendigt at udnytte lastbiler og skibe over lange afstande men fordelen med droner ligger i de korte ture fra varehuset til din hoveddør. Den kæmpe forskel i hastighed sikre sig, at du kan få din pakke leveret inden for en time hvilket er næsten usandsynligt med andre alternativer, især traditionel varelevering som det er nu.
+\n \nDroner bliver ikke påvirket af trafik og har derfor en lavere fejlrate med hensyn til at blive forsinket eller komme ud for et uheld, og de har derudover også indbygget GPS teknologi som ikke kun optimere og forbedre flyveruten, men også tillade at følge pakken direkte i realtid.
+\n \nDroner tilbyder dog også et mere miljøvenligt alternativ når du bestiller din pakke. På korte individuelle pakke leverancer er droner ikke kun hurtigere men også det miljøansvarlige valg, især ved brug af grøn energi."
 
                 android:layout_marginTop="10dp"
 
                 android:textColor="#000"
-
+                android:textSize="15dp"
+                android:fontFamily="serif"
                 ></TextView>
 
 
@@ -145,11 +164,13 @@ Droner tilbyder dog også et mere miljøvenligt alternativ når du bestiller din
                 android:layout_height="wrap_content"
                 android:text="Droner er eldrevne, hvilket gør dem til en af de flere grønne alternativer til normale diesel- eller benzin-drevne varebiler, som på nuværende tidspunkt er på markedet. Især i et land som Danmark, der i høj grad producerer grøn energi, vil det være optimalt at skifte til en eldreven teknologi, som udover at være klimavenlig heller ikke skaber mere trafik.
 \n
-\n
-Men hvor meget mere energi bruger en varebil egentlig? tryk på nedenstående billede for at finde ud af det.
+\nMen hvor meget mere energi bruger en varebil egentlig? tryk på nedenstående billede for at finde ud af det.
 "
                 android:layout_marginTop="10dp"
-                android:textColor="#000"></TextView>
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:fontFamily="serif"
+                ></TextView>
 
 
             <ImageButton
@@ -172,7 +193,10 @@ Men hvor meget mere energi bruger en varebil egentlig? tryk på nedenstående bi
                 android:layout_height="wrap_content"
                 android:text="Som der kan ses bruger benzindrevne varebiler mange gange mere energi end en drone. Dog er det kun en faktorer, som ikke kan bruges til se det store billede. For at måle droners co2-fodaftryk, når det komme til udlevering af pakker, skal antal pakke leveringer mulig pr. km tælles med, samt skal udledning af emissioner for hele teknologiens livscyklus (dette inkluderer produktion af batteri, forbrænding af brændstof osv.). Når det hele tælles sammen er det som følgende: "
                 android:layout_marginTop="10dp"
-                android:textColor="#000"></TextView>
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:fontFamily="serif"
+                ></TextView>
 
 
 
@@ -188,12 +212,14 @@ Men hvor meget mere energi bruger en varebil egentlig? tryk på nedenstående bi
                 />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="267dp"
                 android:layout_height="wrap_content"
-                android:text="Tryk på diagrammet ovenfor for at se yderligere info."
-                android:layout_marginTop="10dp"
                 android:layout_gravity="center"
-                android:textColor="#000"></TextView>
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="Tryk på diagrammet ovenfor for at se yderligere info."
+                android:textColor="#000"
+                android:textSize="10dp"></TextView>
 
 
             <TextView
@@ -201,18 +227,20 @@ Men hvor meget mere energi bruger en varebil egentlig? tryk på nedenstående bi
                 android:layout_height="wrap_content"
                 android:text="Som det kan ses ovenfor så udleder dronen altså også mindre pr. pakke i det store perspektiv, selvom dens kapacitet er så lille. Dronelevering er altså er altså uanset, hvordan du vender og drejer det, et grønnere alternativ til den pakkelevering som vi har i dag.
 \n
+\nMange mennesker har svært ved at stole på autonome droner til at levere deres dyre og skrøbelige pakker, og der opstår mange problemer med dansk lovgivning der ikke tillader droner til at flyve frit og er meget begrænset især inden for byområder. Dette er nogle af grundene til at droner ikke bliver brugt i post branchen i dag.
 \n
-Mange mennesker har svært ved at stole på autonome droner til at levere deres dyre og skrøbelige pakker, og der opstår mange problemer med dansk lovgivning der ikke tillader droner til at flyve frit og er meget begrænset især inden for byområder. Dette er nogle af grundene til at droner ikke bliver brugt i post branchen i dag.
-\n
-\n
-Men forvent at denne droneteknologi kan være en realitet, og den er nok tættere på end du tror!
+\nMen forvent at denne droneteknologi kan være en realitet, og den er nok tættere på end du tror!
 \n
 \n
 \n
 \n
 "
                 android:layout_marginTop="10dp"
-                android:textColor="#000"></TextView>
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:fontFamily="serif"
+
+                ></TextView>
 
 
 
