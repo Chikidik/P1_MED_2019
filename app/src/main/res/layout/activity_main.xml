@@ -57,19 +57,6 @@
                 />
 
 
-
-
-            <ImageButton
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/video_view"
-                android:layout_gravity="center"
-                android:text="Klik her for mere :)"
-                android:textSize="30dp"
-
-                />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -79,6 +66,16 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 android:textColor="#000"
 
                 ></TextView>
+
+            <ImageButton
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video_view"
+                android:layout_gravity="center"
+                android:text="Klik her for mere :)"
+                android:textSize="30dp"
+                />
 
             <TextView
                 android:layout_width="wrap_content"

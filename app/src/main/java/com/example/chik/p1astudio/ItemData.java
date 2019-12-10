@@ -14,8 +14,7 @@ public class ItemData {
         }
 
     public String getName() {
-        return name;
-    }
+        return name; }
 
     public String getDescription() {
         return description;

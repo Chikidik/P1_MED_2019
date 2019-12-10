@@ -13,6 +13,7 @@ import android.widget.VideoView;
 public class ArticleActivity extends AppCompatActivity {
     private ImageButton button;
     private ImageButton statistik;
+    private ImageButton diagram;
 
 
     @Override
@@ -24,6 +25,8 @@ public class ArticleActivity extends AppCompatActivity {
         button = (ImageButton) findViewById(R.id.button);
 
         statistik = (ImageButton) findViewById(R.id.statistik);
+
+        diagram = (ImageButton) findViewById(R.id.diagram);
 
         statistik.setImageResource(R.drawable.billed2);
 
@@ -41,8 +44,14 @@ public class ArticleActivity extends AppCompatActivity {
             }
         });
 
+        diagram = (ImageButton) findViewById(R.id.diagram);
+        diagram.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ArticleActivity.this, PopDiagram.class));
+            }
+        });
     }
-
 
 
     public void openActivity2(){

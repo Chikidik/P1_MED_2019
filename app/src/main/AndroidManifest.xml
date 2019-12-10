@@ -29,10 +29,19 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.chik.p1astudio.ArticleActivity" />
         </activity>
-        <activity android:name=".PopVideo"
+        <activity
+            android:name=".PopVideo"
             android:theme="@style/AppTheme.CustomTheme">
 
         </activity>
+
+        <activity
+            android:name=".PopDiagram"
+            android:theme="@style/AppTheme.CustomTheme">
+
+
+        </activity>
+
 
     </application>
 
