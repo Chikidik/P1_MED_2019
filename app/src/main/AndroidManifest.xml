@@ -42,6 +42,13 @@
 
         </activity>
 
+        <activity
+            android:name=".PopStatistik"
+            android:theme="@style/AppTheme.CustomTheme">
+
+
+        </activity>
+
 
     </application>
 

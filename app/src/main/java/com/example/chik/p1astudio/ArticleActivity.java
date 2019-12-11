@@ -31,10 +31,17 @@ public class ArticleActivity extends AppCompatActivity {
         statistik.setImageResource(R.drawable.billed2);
 
         statistik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ArticleActivity.this, PopStatistik.class));
+            }
+        });
+
+        /* statistik.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 statistik.setImageResource(R.drawable.billede1);
             }
-        });
+        }); */
 
 
         button.setOnClickListener(new View.OnClickListener() {
