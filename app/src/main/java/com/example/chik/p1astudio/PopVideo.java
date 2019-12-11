@@ -6,10 +6,13 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
 public class PopVideo extends Activity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -36,7 +39,7 @@ public class PopVideo extends Activity {
 
         videoView.start();
 
-        getWindow().setLayout((int)(width*0.8),(int)(height*.6));
+        getWindow().setLayout((int)(720),(int)(380));
 
     }
 
