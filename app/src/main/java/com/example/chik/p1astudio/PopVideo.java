@@ -24,7 +24,7 @@ public class PopVideo extends Activity {
         videoView.seekTo(1);
 
 
-  
+
 
 
         DisplayMetrics dm = new DisplayMetrics();
