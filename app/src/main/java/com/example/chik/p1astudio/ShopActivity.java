@@ -22,7 +22,7 @@ public class ShopActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         mToolbar = findViewById(R.id.toolbar);
-        mToolbar.setTitle(getResources().getString(R.string.app_name));
+        mToolbar.setTitle("PrøveShop");
         mRecyclerView = findViewById(R.id.recyclerview);
         GridLayoutManager mGridlayoutManager = new GridLayoutManager(ShopActivity.this, 2);
         mRecyclerView.setLayoutManager(mGridlayoutManager);
