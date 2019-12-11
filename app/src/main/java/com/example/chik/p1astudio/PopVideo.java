@@ -23,10 +23,8 @@ public class PopVideo extends Activity {
         videoView.setVideoURI(uri);
         videoView.seekTo(1);
 
-        MediaController mediaController = new MediaController(this);
 
-        videoView.setMediaController(mediaController);
-        mediaController.setAnchorView(videoView);
+  
 
 
         DisplayMetrics dm = new DisplayMetrics();
