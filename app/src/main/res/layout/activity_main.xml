@@ -86,7 +86,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Droner er en hurtigt voksende teknologi nu om dage, og dette er af mange grunde. Droner har sådan et bredt spektrum af anvendelser, der rækker helt fra militær til privat brug, og den mængde af forskellige værktøjer droner kan tilbyde og bruges som er nærmest uovertruffen. \n \nOm det er et Infrarødt kamera monteret på dronen eller en gps til at spore eller måle, åbner drone teknologien op for helt nye tilgangsmåder og muligheder indenfor mange områder.
+                android:text="Droner er en hurtigt voksende teknologi nu om dage, og det er der mange grunde til. Droner har sådan et bredt spektrum af anvendelser, der rækker helt fra militær til privat brug, og den mængde af forskellige værktøjer droner kan tilbyde og bruges som er nærmest uovertruffen. \n \nOm det er et Infrarødt kamera monteret på dronen eller en gps til at spore eller måle, åbner drone teknologien op for helt nye tilgangsmåder og muligheder indenfor mange områder.
 Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der også har et stort potentiale for fremtiden; Pakkelevering med droner.
 "
                 android:textColor="#000"
