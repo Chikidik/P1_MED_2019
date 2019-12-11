@@ -23,7 +23,8 @@ public class PopStatistik extends Activity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int)(800),(int)(800));
+        getWindow().setLayout((int)(1400),(int)(900));
+
 
 
 
