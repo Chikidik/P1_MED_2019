@@ -19,6 +19,7 @@
         />
 
 
+
     <TextView
 
         android:layout_width="wrap_content"
@@ -32,6 +33,7 @@
         android:textSize="30dp" />
 
     <ScrollView
+        android:id="@+id/sV"
         android:layout_below="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -103,7 +105,7 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 android:textColor="#000"
                 android:textSize="15dp"
 
-                ></TextView>
+                />
 
 
             <TextView
@@ -113,7 +115,7 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 android:fontFamily="serif"
                 android:text="Pakkelevering med droner tilbyder mange nye muligheder inden for pakkelevering, der ikke har været mulige før. Droner tilbyder overraskende hurtig levering af individuelle pakker, og har mulighed for at kunne aflaste pakker på designeret pladser for at gøre det nemmere for modtageren. Dronerne flyver automatisk med minimal menneskelig integration, hvilket gør det billigere på længere sigt, og droner kan derudover også være et godt alternativ til traditionel levering med hensyn til miljøet."
                 android:textColor="#000"
-                android:textSize="15dp"></TextView>
+                android:textSize="15dp"/>
 
 
             <TextView
@@ -129,7 +131,7 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 \n‣ Droner er miljøvenlige \n
                 \n‣ Dronelevering tilbyder et mere sikkert system"
                 android:textColor="#000"
-                android:textSize="15dp"></TextView>
+                android:textSize="15dp"/>
 
             <TextView
                 android:layout_width="211dp"
@@ -146,7 +148,7 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 \n‣ Eksterne årsager som vejr kan have indflydelse på leveringen \n
                 \n‣ Kan overtræde dit privatliv"
                 android:textColor="#000"
-                android:textSize="15dp"></TextView>
+                android:textSize="15dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -163,7 +165,7 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
 \n \nDroner bliver ikke påvirket af trafik og har derfor en lavere fejlrate med hensyn til at blive forsinket eller komme ud for et uheld, og de har derudover også indbygget GPS teknologi som ikke kun optimere og forbedre flyveruten, men også tillade at følge pakken direkte i realtid.
 \n \nDroner tilbyder dog også et mere miljøvenligt alternativ når du bestiller din pakke. På korte individuelle pakke leverancer er droner ikke kun hurtigere men også det miljøansvarlige valg, især ved brug af grøn energi."
                 android:textColor="#000"
-                android:textSize="15dp"></TextView>
+                android:textSize="15dp"/>
 
 
             <TextView
@@ -176,7 +178,7 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
 \nMen hvor meget mere energi bruger en varebil egentlig? tryk på nedenstående billede for at finde ud af det.
 "
                 android:textColor="#000"
-                android:textSize="15dp"></TextView>
+                android:textSize="15dp"/>
 
 
             <ImageButton
@@ -196,7 +198,7 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 android:fontFamily="serif"
                 android:text="Som der kan ses bruger benzindrevne varebiler mange gange mere energi end en drone. Dog er det kun en faktorer, som ikke kan bruges til se det store billede. For at måle droners co2-fodaftryk, når det komme til udlevering af pakker, skal antal pakke leveringer mulig pr. km tælles med, samt skal udledning af emissioner for hele teknologiens livscyklus (dette inkluderer produktion af batteri, forbrænding af brændstof osv.). Når det hele tælles sammen er det som følgende: "
                 android:textColor="#000"
-                android:textSize="15dp"></TextView>
+                android:textSize="15dp"/>
 
 
             <ImageButton
@@ -216,7 +218,7 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 android:fontFamily="serif"
                 android:text="Tryk på diagrammet ovenfor for at se yderligere info."
                 android:textColor="#000"
-                android:textSize="10dp"></TextView>
+                android:textSize="10dp"/>
 
 
             <TextView
@@ -237,7 +239,7 @@ Men her vil der fokuseret på et nyere koncept inden for droneteknologi, der ogs
                 android:textColor="#000"
                 android:textSize="15dp"
 
-                ></TextView>
+                />
 
 
         </LinearLayout>

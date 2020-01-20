@@ -1,14 +1,12 @@
 package com.example.chik.p1astudio;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.view.ViewTreeObserver;
 import android.widget.ImageButton;
-import android.widget.MediaController;
-import android.widget.VideoView;
+import android.widget.ScrollView;
 
 public class ArticleActivity extends AppCompatActivity {
     private ImageButton button;
@@ -21,6 +19,14 @@ public class ArticleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        final ScrollView sV = (ScrollView) findViewById(R.id.sV);
+        sV.getViewTreeObserver().addOnScrollChangedListener(new ViewTreeObserver.OnScrollChangedListener() {
+            @Override
+            public void onScrollChanged() {
+                int scrollY = sV.getScrollY();
+
+            }
+        });
 
         button = (ImageButton) findViewById(R.id.button);
 
@@ -33,7 +39,8 @@ public class ArticleActivity extends AppCompatActivity {
         statistik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ArticleActivity.this, PopStatistik.class));
+                startActivity(new Intent(ArticleActivity.this,
+                              PopStatistik.class));
                 statistik.setImageResource(R.drawable.billede1);
             }
         });

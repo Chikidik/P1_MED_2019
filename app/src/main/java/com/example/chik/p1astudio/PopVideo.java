@@ -24,14 +24,16 @@ public class PopVideo extends Activity {
     private void showVideo() {
 
         VideoView videoView = findViewById(R.id.video_view);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.video;
+        String videoPath = "android.resource://" +
+                            getPackageName() + "/" + R.raw.video;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
-        videoView.seekTo(1);
+        videoView.seekTo(1); //søger 1 millisekundt fremad i videon. Blev brugt så thumbnail af videoen ikke var sort, dog skal ikke bruges mere, da videoen starter med det samme
         videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
-                startActivity(new Intent(PopVideo.this, ArticleActivity.class));
+                startActivity(new Intent(PopVideo.this,
+                                ArticleActivity.class));
             }
         });
         {
